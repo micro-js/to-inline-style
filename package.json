@@ -1,0 +1,15 @@
+{
+  "name": "@f/to-inline-style",
+  "description": "Convert style object to plain strings for inline html styles",
+  "repository": "git://github.com/micro-js/to-inline-style.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
