@@ -32,7 +32,7 @@ var inlineStyles = toInlineStyle({
 
 - `styleObject` - an object with style key, value pairs
 
-**Returns:** A string representationof `styleObject` which can be used in `style` attributes
+**Returns:** A string representation of `styleObject` which can be used in `style` attributes
 
 ## License
 
