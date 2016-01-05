@@ -40,7 +40,7 @@ MIT
 
 [travis-image]: https://img.shields.io/travis/micro-js/to-inline-style.svg?style=flat-square
 [travis-url]: https://travis-ci.org/micro-js/to-inline-style
-[git-image]: https://img.shields.io/github/tag/micro-js/to-inline-style.svg
+[git-image]: https://img.shields.io/github/tag/micro-js/to-inline-style.svg?style=flat-square
 [git-url]: https://github.com/micro-js/to-inline-style
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard
