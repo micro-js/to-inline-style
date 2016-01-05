@@ -12,7 +12,7 @@ var test = require('tape')
 test('should convert objects to inline style strings', function (t) {
   t.deepEqual(
     toInlineStyle({ color: '#fff', margin: 0 }),
-    'color:#fff;margin:0'
+    'color:#fff;margin:0;'
   )
   t.end()
 })
@@ -20,7 +20,7 @@ test('should convert objects to inline style strings', function (t) {
 test('should hyphenate camelcased properties', function (t) {
   t.deepEqual(
     toInlineStyle({ backgroundColor: '#000' }),
-    'background-color:#000'
+    'background-color:#000;'
   )
   t.end()
 })
@@ -28,7 +28,7 @@ test('should hyphenate camelcased properties', function (t) {
 test('should leave hyphenated properties as is', function (t) {
   t.deepEqual(
     toInlineStyle({ 'background-color': '#000' }),
-    'background-color:#000'
+    'background-color:#000;'
   )
   t.end()
 })
@@ -39,7 +39,7 @@ test('should hyphenate prefixes correctly', function (t) {
       WebkitUserSelect: 'none',
       MsFlexAlign: 'stretch'
     }),
-    '-webkit-user-select:none;-ms-flex-align:stretch'
+    '-webkit-user-select:none;-ms-flex-align:stretch;'
   )
   t.end()
 })
