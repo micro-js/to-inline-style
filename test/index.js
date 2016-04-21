@@ -11,15 +11,15 @@ var test = require('tape')
 
 test('should convert objects to inline style strings', function (t) {
   t.deepEqual(
-    toInlineStyle({ color: '#fff', margin: 0 }),
-    'color:#fff;margin:0;'
+    toInlineStyle({color: '#fff', margin: 0}),
+    'color:#fff;margin:0px;'
   )
   t.end()
 })
 
 test('should hyphenate camelcased properties', function (t) {
   t.deepEqual(
-    toInlineStyle({ backgroundColor: '#000' }),
+    toInlineStyle({backgroundColor: '#000'}),
     'background-color:#000;'
   )
   t.end()
@@ -27,7 +27,7 @@ test('should hyphenate camelcased properties', function (t) {
 
 test('should leave hyphenated properties as is', function (t) {
   t.deepEqual(
-    toInlineStyle({ 'background-color': '#000' }),
+    toInlineStyle({'background-color': '#000'}),
     'background-color:#000;'
   )
   t.end()

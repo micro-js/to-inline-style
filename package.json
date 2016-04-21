@@ -9,6 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
+    "@f/css-default-units": "^1.0.1",
     "@f/hyphenate": "^1.0.0"
   },
   "devDependencies": {
