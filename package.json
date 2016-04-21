@@ -2,7 +2,7 @@
   "name": "@f/to-inline-style",
   "description": "Convert style object to plain strings for inline html styles",
   "repository": "git://github.com/micro-js/to-inline-style.git",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
