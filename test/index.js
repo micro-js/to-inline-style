@@ -43,3 +43,11 @@ test('should hyphenate prefixes correctly', function (t) {
   )
   t.end()
 })
+
+test('should generate colors correctly', function (t) {
+  t.deepEqual(
+    toInlineStyle({color: '#DD665C'}),
+    'color:#DD665C;'
+  )
+  t.end()
+})
